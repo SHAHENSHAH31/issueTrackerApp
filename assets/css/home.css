@@ -1,0 +1,9 @@
+
+ body{
+    background: linear-gradient(45deg, red 0 50%, blue 50% 100%);
+ }
+
+ .img{
+   height: 20%;
+   width: 20%;
+ }

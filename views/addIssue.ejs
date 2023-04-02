@@ -1,0 +1,37 @@
+<div class="text-center h2 mb-4">Add Issue</div>
+    
+<section class="container mt-5">
+    <a href="/"><input type="button" value="Go To Home" class="btn btn-primary"></a>
+    <form id="issue">
+        <div class="row my-3">
+          
+            <div class="col">  <input class="form form-control" type="text" id="title" placeholder="Your title" required></div>
+        </div>
+        <div class="row my-3">
+          
+            <div class="col">  <input class="form form-control" type="text" id="author" placeholder="Author Name" required></div>
+        </div>
+        <div class="row my-3">
+          
+            <div class="col"> <select class="form-select" id="severity" aria-label="Default select example" id="severity">
+                <option selected>select the severity</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+              </select>
+            </div>
+        </div>
+        <div class="row my-3">
+          
+            <div class="col">  <input class="form form-control" type="text" id="description"  placeholder="Description"  required></div>
+        </div>
+        <div class="row my-3">
+          
+            <div class="col">  <input class="btn btn-success" type="submit" value="Add Issue" ></div>
+        </div>
+
+    </form>
+
+    <script src="/js/issue.js">
+            
+    </script>
