@@ -1,7 +1,8 @@
 const express=require('express');
 const app=express();
 const mongoose=require('./config/mongodb');
-const port=8000;
+require('dotenv').config();
+const port=8000||process.env.port;
 app.use(express.static('./assets'));
 app.use(express.urlencoded());
 app.use(express.json());
